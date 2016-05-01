@@ -1,0 +1,168 @@
+body{
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#header {
+	position:relative;
+	z-index:100;
+	min-width:675px; /* min width for the tabs, before they wrap */
+	padding:0px;
+	border:1px solid #CCC;
+}
+#header-left{
+	margin-right:200px;
+}
+#header-right{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:200px;
+}
+#eld-menue-strip{
+	padding:3px 10px;
+	border-bottom:1px dotted #CCC;
+}
+	.eld-menu{
+		display:inline; padding-right:20px;
+	}
+
+#eld-ribbon-strip{
+	height:60px;
+	width:auto;
+	padding:5px;
+}
+.eld-ribbon{
+	height:60px;
+	display:none;
+}
+
+.eldr-floor{
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	width:58px;
+	border:1px solid #000;
+	margin:0px 5px 5px 0px;
+	cursor:move;
+	background-image:url(../img/transparency_10.png);
+	
+	display: -moz-inline-stack;
+	display:inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+#section {
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+#leftbox {
+    background-color: #FFFFFF;
+    font-size: 12px;
+    padding: 0 6px 0 0;
+	display: block;
+    float: left;
+    margin: 0;
+	width:200px;
+	height:500px;
+	
+}
+#leftbox-content {
+    overflow: auto;
+    position: relative;
+	padding:0px 10px;
+	height:480px;
+	
+}
+#mainbox {
+    overflow: auto;
+	display: block;
+    float: none;
+    margin: 0 0 0 0px;
+    width: auto;
+	height:500px;
+	border:1px solid #CCC;
+}
+#mainbox-content{
+	overflow:visible;
+	height:auto;
+	width:auto;
+	
+}
+
+/*
+	event layout designer
+*/
+/* toolbar */
+.tb-measurement{
+	width:150px;
+	display: -moz-inline-stack;
+	display:inline-block;
+	zoom: 1;
+	*display: inline;
+}
+.tb-measurement-w{
+	
+}
+.tb-measurement-h{
+	
+}
+.tb-sections{
+	height:55px;
+	display: -moz-inline-stack;
+	display:inline-block;
+	zoom: 1;
+	*display: inline;
+}
+.tbri-floor{
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	width:70px;
+	border:1px solid #000;
+	margin:4px;
+	cursor:move;
+	background-image:url(../img/transparency_10.png);
+	
+	display: -moz-inline-stack;
+	display:inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+/* canvas */
+.eld-ground{
+	width:360px;
+	height:240px;
+	border:3px solid #94b922;
+	background-image:url(../img/transparency_10.png);
+	position:relative;
+	background-image:url(../img/grid_12.gif);
+}
+.evt-measurement{
+	background-image:url(../img/transparency_10.png);
+	position:absolute;
+	bottom:0px;
+	right:20px;
+	padding:3px 5px;
+	font-size:12px;
+}
+.evt-section{
+	height:46px;
+	text-align:center;
+	width:94px;
+	border:1px solid #000;
+	margin:0px;
+	padding:0px;
+	cursor:move;
+	background-image:url(../img/transparency_10.png);
+	position:absolute;
+	
+	display: -moz-inline-stack;
+	display:inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.mouse-out .ui-resizable-se{ background:none;}

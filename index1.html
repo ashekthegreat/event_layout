@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+    <title>Floor Layout Planner</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/smoothness/jquery-ui-1.10.1.custom.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style1.css" rel="stylesheet" type="text/css"/>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+    <script src="js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+    <script src="js/raphael-min.js" type="text/javascript"></script>
+    <script src="js/script1.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div style="width:960px; margin:0 auto;">
+    <div id="header">
+        <div id="header-left">
+            <div id="eld-menue-strip">
+                <div class="eld-menu" id="eld-menu-floor">Floor</div>
+                <div class="eld-menu" id="eld-menu-seating">Seating</div>
+                <div class="eld-menu" id="eld-menu-dining">Dining</div>
+            </div>
+            <div id="eld-ribbon-strip">
+                <div class="eld-ribbon" id="eld-ribbon-floor">
+                    <div class="eldr-floor" id="eldr-floor-seating">Seating</div>
+                    <div class="eldr-floor" id="eldr-floor-dance">Dance</div>
+                    <div class="eldr-floor" id="eldr-floor-vendor">Vendor</div>
+                    <div class="eldr-floor" id="eldr-floor-stage">Stage</div>
+                    <div class="eldr-floor" id="eldr-floor-tole">Tole</div>
+                    <div class="eldr-floor" id="eldr-floor-entry">Entry</div>
+                    <div class="eldr-floor" id="eldr-floor-av">a/v</div>
+                    <div class="eldr-floor" id="eldr-floor-unusable">Unusable</div>
+                    <div class="eldr-floor" id="eldr-floor-restroom">Restroom</div>
+                    <div class="eldr-floor" id="eldr-floor-checkin">Check-In</div>
+                    <div class="eldr-floor" id="eldr-floor-other">Other</div>
+                </div>
+                <div class="eld-ribbon" id="eld-ribbon-seating">Seating ribbon</div>
+                <div class="eld-ribbon" id="eld-ribbon-dining">Dining ribbon</div>
+            </div>
+        </div>
+        <div id="header-right">
+            <div class="tb-measurement">
+                <div class="tb-measurement-w">Ground Size:</div>
+                <div class="tb-measurement-h">(30 x 20)ft</div>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <div id="section">
+        <div id="mainbox">
+            <div id="mainbox-content">
+                <div class="eld-ground" id="eld-ground"></div>
+            </div>
+        </div>
+        <!-- end mainbox -->
+    </div>
+    <!-- end body-content -->
+</div>
+</body>
+</html>
